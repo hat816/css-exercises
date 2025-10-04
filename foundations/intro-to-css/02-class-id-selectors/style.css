@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+
+.impar {
+    background-color: rgb(255, 0, 0, 0.25);
+    font-family: Verdana, sans-serif, DejaVu Sans ;
+}
+
+.tamaño3 {
+    font-size: 24px;
+}
+
+#dos {
+    color: blue;
+    font-size: 36px;
+}
+
+#cuatro {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* .p {
+    background-color: rgb(255, 0, 0, 0.25);
+    font-family: Verdana, sans-serif, DejaVu Sans ;
+}
+
+En mi solución personal, he pensado solo en esto para el CSS EXTERNO.
+El resto de los requerimientos los solventé con CSS EN LÍNEA. */
+
+/* La versión actual solucionó el hecho de haber usado CSS EN LÍNEA en el archivo HTML en un inicio*/
