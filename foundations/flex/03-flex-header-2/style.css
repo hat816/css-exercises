@@ -46,3 +46,42 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* SOLUTION */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+/* div.left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+} */
+/* Se puede simplificar, en la solución de TOP se muestra cómo. 
+Además, se notará que en mi solución hay gaps diferentes y eso es porque 
+todos eran 8px y sin darme cuenta, al querer cambiar los valores (a 16px porque es un requisito de la actividad), 
+acabe cambiando todos los 8px del código CSS a 16px y me salía todo más grande en el navegador. 
+De allí que lo dejara así, pero luego me di cuenta de este hecho y me pareció gracioso documentarlo y no cambiarlo para tenerlo presente.*/
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
