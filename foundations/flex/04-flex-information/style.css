@@ -24,3 +24,64 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* MY SOLUTION */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.title {
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+div.textimg {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+div.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.uno, .dos, .tres, .cuatro {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+
+/* Mi código cumple con los requisitos del ejercicio. 
+Pero, al revisar la solución de  TOP, 
+me he dado cuenta de que es ineficiente por el exceso de código.   */
+
+/* SOLUCIÓN DE TOP */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+/* Por obvias razones, este código es mucho más eficiente por varias razones:
+su simplicidad, su tamaño es menor y no necesita tantas líneas de código. */
